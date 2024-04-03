@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.element {
+  padding: 5px;
+  display: flex;
+  gap: 15px;
+}
+
+.element:hover {
+  background-color: #616161;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  gap: 2px;
+}
+
+.btn {
+  background-color: #535252;
+  border: none;
+  padding: 2px;
+  font-size: 12px;
+}
+
+.inputContainer {
+  padding: 5px;
+  display: flex;
+  gap: 15px;
+  margin-left: 20px;
+}
